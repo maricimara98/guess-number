@@ -18,7 +18,7 @@
     <main class="container">
       <form id="form">
         <label for="kick">Digite um número (0 - 10):</label>
-        <input type="number" id="kick" max="10" placeholder="0">
+        <input type="number" id="kick" min="0" max="10" placeholder="0">
 
         <button type="submit">Jogar!</button>
       </form>
@@ -32,7 +32,7 @@
     </main>
 
     <footer>
-      <p>GuessNumber, 2021 &copy;</p>
+      <p>GuessNumber, 2022 &copy;</p>
     </footer>
   </body>
 </html>

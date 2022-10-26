@@ -33,6 +33,7 @@ function handleSubmit(e) {
 
   if(numberDrawn == kick) {
     playAgain();
+    var status;
     status.innerHTML = 'Parabéns, você acertou!';
     result.style.transition = '0.4s';
     result.style.backgroundColor = '#37c978';
